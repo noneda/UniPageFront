@@ -4,6 +4,7 @@ import React from "react";
 import Header from "./Adds/Header";
 import Footer from "./Adds/Footer";
 import NoLoad from "./Adds/NoLoad";
+import SlideBar from "./Adds/SlideBar";
 
 const Layout = () => {
     const location  = useLocation();
@@ -12,6 +13,7 @@ const Layout = () => {
     return (
         <>
             <Header/>
+            <SlideBar/>
             <main className="Main">
                 {isLoading ? <NoLoad/> : <Outlet/>}
             </main>
