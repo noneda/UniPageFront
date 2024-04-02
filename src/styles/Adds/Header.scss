@@ -13,11 +13,6 @@ header{
     text-align:center;
     line-height:160px;
 
-    .shrink{
-        height: 100px;
-        line-height: 80px;
-    }
-
     h1{
         font-size: 275%;
         font-weight: normal;
@@ -26,16 +21,19 @@ header{
         -moz-transition: all 0.3s;
         transition: all 0.3s;
     }
-    
-    .shrink h1{
+}
+.shrink{
+    height: 100px;
+    line-height: 80px;
+    h1{
         font-size:24px;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
     }
-}   
+}
 .content
 {
-height:2000px;
+height:20000px;
  /*just to get the page to scroll*/
 }

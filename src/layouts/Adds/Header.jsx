@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Header = () => {
-    const [isScrolled, setIsScrolled] = useState(False);
+    const [isScrolled, setIsScrolled] = useState(false);
     useEffect(() => {
         const handleScroll = () => {
             const currentScroolly = window.scrollY;
