@@ -11,7 +11,7 @@ const Layout = () => {
     const isLoading = location.state?.loading;
 
     return (
-        <>
+        <>  
             <Header/>
             <SlideBar/>
             <main className="Main">

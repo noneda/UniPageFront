@@ -20,7 +20,7 @@ const Header = () => {
             <header className={isScrolled ? 'shrink' : ''}>
                 <h1>Universidad de Pobres</h1>
             </header>
-            <div className='content'/>
+
         </>
     );
 };
