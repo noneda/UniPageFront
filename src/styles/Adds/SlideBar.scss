@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+@import '../Data/Colors.scss';
+
 
 .navwrapper {
     *, *:before, *:after {
@@ -7,7 +9,7 @@
         box-sizing: border-box;
         
     }   
-    margin-top: 33vh;
+    margin-top: 40vh;
     position: fixed;
     //overflow: hidden;
 	width: 14rem;
@@ -18,7 +20,7 @@
 	width: min-content;
 	display: flex;
 	flex-direction: column;
-	background: #1f1f4c;
+	background: $Firt;
 	border-radius: 1rem;
 	padding: 0.5rem;
 	box-shadow: rgba(0,0,0, 0.2) 0px 7px 29px 0px;
@@ -41,7 +43,7 @@
         position: absolute;
         content: "";
         inset: 1rem;
-        background: #292960;
+        background: $Second;
         border-radius: 0.5rem;
         z-index: -2;
         opacity: 0;
@@ -61,13 +63,13 @@
         padding-bottom: 0.125rem;
         font-size: 1.375rem;
         --ionicon-stroke-width: 40px;
-        color: #c9c9ff;
+        color: $Fourth;
     }
     .navicon:after {
         position: absolute;
         content: "";
         inset: 1rem;
-        background: #323276;
+        background: $Fourth;
         border-radius: 0.5rem	0 0 0.5rem;
         z-index: -1;
         opacity: 0;
@@ -91,7 +93,11 @@
         padding-bottom: 0.125rem;
         padding-left: 0.5rem;
         font-size: 1.125rem;
-        color: #c9c9ff;
+        color: $White;
+        a{
+            color: white;
+            text-decoration: none;
+        }
     }
 
 }
